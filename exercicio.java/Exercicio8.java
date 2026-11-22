@@ -15,11 +15,11 @@ public class Exercicio8 {
 
             if (numero < numeroInicial) {
                 System.out.println("Número ignorado (menor que o inicial).");
-                continue; // Volta para o início do while sem encerrar
+                continue; 
             }
             if (numero % numeroInicial != 0) {
                 System.out.println("Encerrando: " + numero + " dividido por " + numeroInicial + " tem resto " + (numero % numeroInicial) + " (diferente de 0).");
-                break; // Encerra o loop
+                break;
             }
             System.out.println("Divisão exata (resto 0). Continuando...");
         }
