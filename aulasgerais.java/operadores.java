@@ -1,6 +1,14 @@
+/*
+Aula referente a operadores aritméticos, relacionais e de atribuição.
 
+O que aprendi:
 
-public void main(String[] args) {
+- Operadores aritméticos fundamentais: adição (+), subtração (-), multiplicação (*), divisão (/) e módulo (%).
+- Operadores relacionais e de comparação para construção de expressões booleanas.
+- Precedência de operadores na avaliação de expressões matemáticas dentro do Java.
+*/
+
+public static void main(String[] args) {
     @SuppressWarnings("resource")
     var scanner = new Scanner(System.in);
     System.out.println("Digite um número para calcular a potência:");

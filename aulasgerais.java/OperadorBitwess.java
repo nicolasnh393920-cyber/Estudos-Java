@@ -1,3 +1,13 @@
+/*
+Aula referente a operadores bitwise (operações a nível de bits) em Java.
+
+O que aprendi:
+
+- Como o computador processa dados binários diretamente na memória.
+- Utilização dos operadores bit a bit como AND (&), OR (|), XOR (^) e NOT (~).
+- Compreensão de como números inteiros são manipulados em baixo nível e suas aplicações em flags, máscaras e desempenho.
+*/
+
 public void main(String[] args) {
     var value1 = 6;
     var binary1 = Integer.toBinaryString(value1);

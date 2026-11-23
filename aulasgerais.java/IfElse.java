@@ -1,3 +1,13 @@
+/*
+Aula referente a controle de fluxo e ramificações condicionais.
+
+O que aprendi:
+
+- O funcionamento fundamental dos blocos 'if', 'else if' e 'else' na tomada de decisões.
+- Como encadear múltiplas condições para cobrir diferentes cenários de execução.
+- Importância da ordem de avaliação das expressões lógicas para evitar comportamentos inesperados.
+*/
+
 import java.util.Scanner;
 
 public class IfElse {
@@ -14,7 +24,7 @@ public class IfElse {
         System.out.println("Você é emancipado? (s/n)");
         var emancipado = scanner.nextLine();
 
-        // Estrutura Condicional
+        // Aqui é a estrutura condicional
         if (idade >= 18) {
             System.out.println("Olá, " + nome + "! Você pode dirigir.");
         } else if (idade >= 16 && emancipado.equalsIgnoreCase("s")) {

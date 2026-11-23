@@ -1,3 +1,13 @@
+/*
+Aula referente a estruturas condicionais e regras de negócio lógicas no dia a dia.
+
+O que aprendi:
+
+- Aplicação de estruturas de decisão (o famoso "if" e "else") para validar regras do mundo real (ex: permissão para dirigir baseada na idade).
+- Uso de operadores de comparação (>=, <=, ==) para tomar decisões de fluxo.
+- Criação de mensagens claras e dinâmicas de saída para o usuário de acordo com o resultado da condição.
+*/
+
 public static void main(String[] args) {
 var scanner = new Scanner(System.in);
 System.out.println("Quantos anos você tem?");
